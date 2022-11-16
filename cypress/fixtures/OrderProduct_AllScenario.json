@@ -1,0 +1,93 @@
+{
+    "URL": "http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Login.aspx",
+    "Order": [{
+        "Product": "MyMoney",
+        "Quantity":"0",
+        "Customer": "Ragisha",
+        "Street":"Btr Street",
+        "City":"Bangalore",
+        "Zip":"500500",
+        "Card":"987654321",
+        "Expire":"12/22",
+        "expected_result":"Quantity must be greater than zero."
+    },
+    {
+        "Product": "FamilyAlbum",
+        "Quantity":"6",
+        "Customer": "Ragisha",
+        "Street":"Btr Street",
+        "City":"Chennai",
+        "Zip":"500500",
+        "Card":"987654321",
+        "Expire":"12/22",
+        "expected_result":"Field 'Customer name' cannot be empty."
+    },
+    {
+        "Product": "ScreenSaver",
+        "Quantity":"7",
+        "Customer": "Ragisha",
+        "Street" : " ",
+        "City":"Chennai",
+        "Zip":"500500",
+        "Card":"987654321",
+        "Expire":"12/22",
+        "expected_result":"Field 'Street' cannot be empty."
+    },
+    {
+        "Product": "FamilyAlbum",
+        "Quantity":"6",
+        "Customer": "Ragisha",
+        "Street":"Btr Street",
+        "City" : " ",
+        "Zip":"500500",
+        "Card":"987654321",
+        "Expire":"12/22",
+        "expected_result":"Field 'City' cannot be empty."
+    },
+    {
+        "Product": "FamilyAlbum",
+        "Quantity":"6",
+        "Customer": "Ragisha",
+        "Street":"Btr Street",
+        "City":"Delhi",
+        "Zip" : " ",
+        "Card":"987654321",
+        "Expire":"12/22",
+        "expected_result":"Field 'Zip' cannot be empty."
+    },
+    {
+        "Product": "FamilyAlbum",
+        "Quantity":"6",
+        "Customer": "Ragisha",
+        "Street":"Btr Street",
+        "City":"Delhi",
+        "Zip":"500500",
+        "Card" : " ",
+        "Expire":"12/22",
+        "expected_result":"Field 'Card Nr' cannot be empty."
+    },
+    {
+        "Product": "FamilyAlbum",
+        "Quantity":"6",
+        "Customer": "Ragisha",
+        "Street":"Btr Street",
+        "City":"Delhi",
+        "Zip":"500500",
+        "Card":"987654321",
+        "Expire" : " ",
+        "expected_result":"Field 'Expire date' cannot be empty."
+    },
+    {
+        "Product": "FamilyAlbum",
+        "Quantity":"6",
+        "Customer": "Ragisha",
+        "Street":"Btr Street",
+        "City":"Delhi",
+        "Zip":"500500",
+        "Card":"987654321",
+        "Expire":"12/22",
+        "expected_result":"New order has been successfully added."
+    }
+]
+
+}
